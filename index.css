@@ -134,6 +134,8 @@ h1{
   }
   .rating{
 max-width: 250px;
+justify-content: center;
+
   }
   .wrapper {
     width: 100%;
@@ -193,7 +195,7 @@ max-width: 250px;
   }
 
   h1 {
-    font-size: 35px;
+    font-size: 40px;
 
     margin: 0;
     margin-bottom: 10px;
@@ -211,10 +213,12 @@ max-width: 250px;
     margin-left: 80px;
   }
   .rating {
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 0;
+flex-direction: row;
+justify-content: space-around;
+    padding: 3px;
     width: 350px;
+    padding-right: 50px;
+ 
   }
 
   #review-wrapper {
@@ -224,13 +228,15 @@ max-width: 250px;
   margin:auto;
   }
   .review {
-    max-width: 250px;
-    padding: 20px;
+    max-width: 300px;
+    padding: 30px;
     margin-right: 10px;
   }
   #rating-wrapper{
       justify-content: space-around;
   }
+
+ 
 .review:nth-child(1){
     align-self: flex-start;
 }
